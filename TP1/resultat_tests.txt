@@ -1,0 +1,16 @@
+============================= test session starts ==============================
+platform linux -- Python 3.14.4, pytest-9.2.0, pluggy-1.7.0 -- /home/idrissa_yameogo/TP1/bin/python
+cachedir: .pytest_cache
+rootdir: /home/idrissa_yameogo/DEVOIR -CRYPTO-2A/TP1/TP1
+configfile: pytest.ini
+testpaths: tests
+collecting ... collected 6 items
+
+tests/test_coffre.py::test_aller_retour PASSED                           [ 16%]
+tests/test_coffre.py::test_deux_chiffrements_differents PASSED           [ 33%]
+tests/test_coffre.py::test_mauvais_mot_de_passe PASSED                   [ 50%]
+tests/test_coffre.py::test_octet_modifie PASSED                          [ 66%]
+tests/test_coffre.py::test_nom_echange PASSED                            [ 83%]
+tests/test_coffre.py::test_rechiffrement PASSED                          [100%]
+
+============================== 6 passed in 8.01s ===============================

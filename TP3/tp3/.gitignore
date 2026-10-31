@@ -1,0 +1,9 @@
+# Règle commune : aucune clé privée dans le dépôt
+*.key
+*.csr
+
+# Captures réseau : à joindre au rapport sous forme d'images (.png)
+*.pcapng
+
+# Contient l'ancienne clé privée du serveur (créé par renouveler.sh)
+sauvegardes/
